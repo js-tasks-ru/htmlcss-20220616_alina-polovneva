@@ -1,0 +1,43 @@
+header {
+    font-family: courier;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(88, 184, 152);
+}
+header h1 {
+    margin: 0
+}
+nav {
+    font-family: courier;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(94, 88, 184);
+    padding: 10px 10px;
+}
+nav a {
+    color: aliceblue;
+}
+main {
+    background-color: rgb(225, 245, 136);
+    border: 10px solid rgb(238, 158, 211);
+    color: aliceblue;
+}
+main h2 {
+    margin: 0
+}
+article {
+    background-color: rgb(162, 125, 211);
+    padding: 20px 10px;
+   
+}
+.border {
+    border-top: 5px solid rgb(238, 158, 211);
+}
+footer {
+    background-color: rgb(90, 186, 230);
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    padding: 10px 10px;
+}

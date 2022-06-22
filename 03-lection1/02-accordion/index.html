@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/normalize_css.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Saint-Petersburg Part 1
+                </summary>
+                <p>
+                    Saint-Petersburg is the second largest city in Russia and one of the most beautiful cities in the world. 
+                    The city is called Northern Venice too.
+                </p>
+                <p>
+                    The population of the city grew fast.  Nowadays, it is near six million people.
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Saint-Petersburg Part 2
+                </summary>
+                <p>
+                    There are lots of museums in the city. 
+                    The Hermitage,for example, contains the richest collection of pictures and pieces of applied art in the world.                    
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Saint-Petersburg Part 3
+                </summary>
+                <p>
+                    Saint Petersburg is also famous for its legendary white nights. Different festivals take place at this time. 
+                </p>
+            </details>
+        </div>
     </body>
 </html>

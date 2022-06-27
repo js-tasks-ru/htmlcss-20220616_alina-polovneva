@@ -22,8 +22,8 @@
     color: var(--white);
 }
 .button_primary:hover {
-    background-color: var(--dark-blue);
-    border-color: var(--dark-blue);
+    background-color: #2342C0;
+    border-color:#2342C0;
 }
 .button_secondary {
     background-color: var(--purple);
@@ -31,8 +31,8 @@
     color: var(--white);  
 }
 .button_secondary:hover {
-    background-color: var(--dark-purple);
-    border-color: var(--dark-purple);
+    background-color: #5028C6;
+    border-color:#5028C6;
 }
 .button_alternate {
     background-color: var(--white);

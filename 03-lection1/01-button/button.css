@@ -26,8 +26,8 @@
     border-color:#2342C0;
 }
 .button_secondary {
-    background-color: var(--purple);
-    border-color: var(--purple);
+    background-color: var(--secondary);
+    border-color: var(--secondary);
     color: var(--white);  
 }
 .button_secondary:hover {

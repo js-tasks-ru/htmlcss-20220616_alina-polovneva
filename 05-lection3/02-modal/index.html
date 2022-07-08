@@ -7,6 +7,31 @@
         <title>Modal</title>
     </head>
     <body>
+        <button class="button button_primary" id="modal-open">
+            Открыть модалку
+        </button>
+        <div class="modal" id="modal">
+            <div class="modal__inner">
+                <button class="button modal__button-close" id="modal-close">
+                    <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 3L41.5 41.5M41.5 3L3 41.5" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                        
+                </button>
+                <form action="#">
+                    <label class="modal__label"> 
+                        <p>NAME</p> 
+                        <input type="text" class="modal__input" placeholder="Placeholder">
+                    </label>
+                    <label class="modal__label"> 
+                        <p>EMAIL</p> 
+                        <input type="text" class="modal__input" placeholder="Placeholder">
+                    </label>
+                    <button class="button button_primary modal__button">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
     </body>
     <script src="./index.js"></script> 
 </html>

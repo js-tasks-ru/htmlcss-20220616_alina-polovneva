@@ -16,7 +16,7 @@
    text-align: center;
    color: var(--grey-2);
    position: absolute;
-   bottom: 120%;
+   bottom: calc(100% + 8px);
    left: 50%;
    transform: translateX(-50%);
 }

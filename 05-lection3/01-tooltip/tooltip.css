@@ -5,7 +5,7 @@
 .tooltip__bubble {
    display: none;
    padding: 13px 10px; 
-   background: var(--black);
+   background: var(--blue);
    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
    border-radius: 10px;
    font-family: 'Inter';
@@ -25,7 +25,7 @@
    width: 0;
    height: 0;
    border: 10px solid transparent;
-   border-top: 5px solid var(--black);
+   border-top: 5px solid var(--blue);
    position: absolute;
    top: 100%;
    left: 50%;

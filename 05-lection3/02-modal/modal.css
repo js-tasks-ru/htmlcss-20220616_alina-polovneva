@@ -8,7 +8,18 @@
     background: rgba(196, 196, 196, 0.5);
     z-index: 99;
 }
+.modal__title {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+}
 .modal__inner {
+    position: relative;
+    box-sizing: border-box;
     position: absolute;
     top:50%;
     left: 50%;
@@ -20,69 +31,25 @@
     width: 100%;
     max-width: 428px;
 }
-.modal__label {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--grey-3);
-}
-.modal__label > p {
+.modal__p {
     margin: 0;
-}
-.modal__input {
+    padding-top: 14px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    padding: 0 24px;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 16px;
-    height: 56px;
-    box-sizing: border-box;
-    background: var(--white);
-    border: 1px solid var(--grey-2);
-    border-radius: 8px;
-}
-.modal__input::-webkit-input-placeholder {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: var(--grey-2);
-}
-.modal__input::-moz-placeholder { 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: var(--grey-2);
-}
-.modal__input:-moz-placeholder { 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: var(--grey-2);
-}
-.modal__button {
-    margin-top: 8px;
-    width: 182px;
-    align-self: flex-start;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
 }
 .modal__button-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
     display: block;
     margin-left: auto;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background: transparent;
     padding: 0;
+    border: none;
 }

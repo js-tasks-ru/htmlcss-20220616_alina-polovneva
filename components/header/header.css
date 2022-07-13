@@ -1,5 +1,5 @@
 .header {
-    padding: 96px 0 77px;
+    /* padding: 96px 0 77px; */
     background: var(--white);
 }
 .header__title {
@@ -10,4 +10,7 @@
     line-height: 64px;
     color: var(--font-primary);
     margin: 0;
+}
+.header_component {
+    background: transparent;
 }

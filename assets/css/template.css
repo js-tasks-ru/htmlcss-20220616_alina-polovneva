@@ -1,0 +1,15 @@
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+}
+.sidebar {
+    width: 229px;
+}
+.content{
+}

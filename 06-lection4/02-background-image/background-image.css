@@ -1,0 +1,23 @@
+.background__image {
+    height: 100vh;
+    background-image: url(/06-lection4/02-background-image/public/forest_400.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 401px)  {
+    .background__image {
+        background-image: url(/06-lection4/02-background-image/public/forest_768.jpg);
+    }
+}
+@media screen and (min-width: 769px)  {
+    .background__image {
+        background-image: url(/06-lection4/02-background-image/public/forest_1024.jpg);
+    }
+}
+@media screen and (min-width: 1025px)  {
+    .background__image {
+        background-image: url(/06-lection4/02-background-image/public/forest_2560.jpg);
+    }
+}
